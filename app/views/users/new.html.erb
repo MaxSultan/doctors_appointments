@@ -1,2 +1,9 @@
-<h1>Users#new</h1>
-<p>Find me in app/views/users/new.html.erb</p>
+<h1>Add User</h1>
+<%= form_with(model: @user, local: true, class: "ui form") do |f| %>
+  <div class= "field">
+    <%= f.label :first_name %>
+    <%= f.text_field :first_name, required: true, placeholder: "First Name" %>
+    <%= f.label :last_name %>
+    <%= f.text_field :last_name, required: true, placeholder: "Last Name" %>
+    <%= f.submit nil, class: "blue button inverted" %>
+<% end %>
