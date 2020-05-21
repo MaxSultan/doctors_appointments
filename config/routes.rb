@@ -1,5 +1,8 @@
 Rails.application.routes.draw do
 
+  get 'appointments/new'
+  get 'appointments/index'
+  get 'appointments/show'
 root 'users#index' 
  resources :users
  resources :doctors

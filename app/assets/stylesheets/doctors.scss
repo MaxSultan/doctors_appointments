@@ -1,3 +1,13 @@
 // Place all the styles related to the doctors controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: https://sass-lang.com/
+
+
+body {
+  font-family: Impact;
+  font-size: 13px;
+  background: lightblue ;
+  background-image: url('https://cdn.pixabay.com/photo/2015/02/26/15/40/doctor-650534_960_720.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}

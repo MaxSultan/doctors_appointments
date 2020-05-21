@@ -1,5 +1,5 @@
 class DoctorsController < ApplicationController
-  before_action :find_user, only [:show, :destroy]
+  before_action :find_doctor, only: [:show, :destroy]
   
   def index
     @doctors = Doctor.all
@@ -40,7 +40,7 @@ class DoctorsController < ApplicationController
   end 
 
   private
-  def find_user
+  def find_doctor
     @doctor = Doctor.find(params[:id])
   end 
 

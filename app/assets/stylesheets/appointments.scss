@@ -1,0 +1,30 @@
+// Place all the styles related to the appointments controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+
+body {
+  font-family: Impact;
+  font-size: 13px;
+  background: lightblue ;
+  background-image: url('https://i.ytimg.com/vi/EiQmI9mvB-Q/maxresdefault.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.nav-list{
+    display: inline;
+    list-style: none;
+    background-color: gray;
+}
+
+.nav-items{
+    display: inline-block;
+    padding: 8px 16px 16px 8px;
+    float: left;
+}
+
+.nav-items > a{
+    text-decoration: none;
+    display: block;
+    font-size: 60px;
+}

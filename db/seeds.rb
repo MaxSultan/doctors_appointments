@@ -5,4 +5,18 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+roles = ['doctor', 'user']
 
+10.times do 
+  user = User.create(
+    first_name: Faker::Name.first_name,
+    last_name: Faker::Name.last_name
+  )
+end
+
+10.times do 
+  doctor = Doctor.create(
+    first_name: Faker::Name.first_name,
+    last_name: Faker::Name.last_name
+  )
+end
